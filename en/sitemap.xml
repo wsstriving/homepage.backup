@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://wsstriving.github.io/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wsstriving.github.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wsstriving.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/authors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wsstriving.github.io/zh/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wsstriving.github.io/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wsstriving.github.io/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wsstriving.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/post/</loc>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/publication_types/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wsstriving.github.io/zh/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wsstriving.github.io/publication_types/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/publication/</loc>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/author/shuai-wang/</loc>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wsstriving.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wsstriving.github.io/tags/"
+                />
+  </url>
+  
+</urlset>
