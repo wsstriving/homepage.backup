@@ -909,8 +909,8 @@
     <div class="article-style">
       不论是机器学习的分类问题，或者具体到说话人识别中，都需要对模型的性能指标进行评判，这就牵涉到性能度量指标的问题，常见的有几种，长得比较相似，也容易弄混，在这里加以阐述区分
  1. 错误率与精度 错误率Err. Rate 是分类错误的样本数占样本总数的比例，精度Acc. Rate 是分类正确的样本数占样本总数的比例
-$$ \begin{align} Err. Rate &amp;= \frac{1}{m}\sum_{i=1}^{m}\mathcal{I}(f(x_i)=y_i) \
-Acc. Rate &amp;= 1-Err. Rate \end{align} $$
+$$ Err. Rate = \frac{1}{m}\sum_{i=1}^{m}\mathcal{I}(f(x_i)=y_i) $$
+$$ Acc. Rate = 1-Err. Rate $$
 2. 查准率与查全率  True Positive （真正,TP）被模型预测为正的正样本； True Negative（真负 , TN） 被模型预测为负的负样本； False Positive （假正, FP）被模型预测为正的负样本； False Negative（假负 , FN）被模型预测为负的正样本；  查准率 P=TP／TP+FP, 关注预测为正的样本里多少是真的正例。 查全率 R=TP／TP+FN, 关注是不是所有正样本都被正确分类。 当查准率等于查全率时候得到BEP(Break-Even Point):　BEP=P=R
     </div>
     

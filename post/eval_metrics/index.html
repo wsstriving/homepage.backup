@@ -29,8 +29,8 @@
   
   <meta name="description" content="不论是机器学习的分类问题，或者具体到说话人识别中，都需要对模型的性能指标进行评判，这就牵涉到性能度量指标的问题，常见的有几种，长得比较相似，也容易弄混，在这里加以阐述区分
  1. 错误率与精度 错误率Err. Rate 是分类错误的样本数占样本总数的比例，精度Acc. Rate 是分类正确的样本数占样本总数的比例
-$$ \begin{align} Err. Rate &amp;= \frac{1}{m}\sum_{i=1}^{m}\mathcal{I}(f(x_i)=y_i) \
-Acc. Rate &amp;= 1-Err. Rate \end{align} $$
+$$ Err. Rate = \frac{1}{m}\sum_{i=1}^{m}\mathcal{I}(f(x_i)=y_i) $$
+$$ Acc. Rate = 1-Err. Rate $$
 2. 查准率与查全率  True Positive （真正,TP）被模型预测为正的正样本； True Negative（真负 , TN） 被模型预测为负的负样本； False Positive （假正, FP）被模型预测为正的负样本； False Negative（假负 , FN）被模型预测为负的正样本；  查准率 P=TP／TP&#43;FP, 关注预测为正的样本里多少是真的正例。 查全率 R=TP／TP&#43;FN, 关注是不是所有正样本都被正确分类。 当查准率等于查全率时候得到BEP(Break-Even Point):　BEP=P=R">
 
   
@@ -242,8 +242,8 @@ Acc. Rate &amp;= 1-Err. Rate \end{align} $$
   <meta property="og:title" content="常用性能度量指标 | Academic">
   <meta property="og:description" content="不论是机器学习的分类问题，或者具体到说话人识别中，都需要对模型的性能指标进行评判，这就牵涉到性能度量指标的问题，常见的有几种，长得比较相似，也容易弄混，在这里加以阐述区分
  1. 错误率与精度 错误率Err. Rate 是分类错误的样本数占样本总数的比例，精度Acc. Rate 是分类正确的样本数占样本总数的比例
-$$ \begin{align} Err. Rate &amp;= \frac{1}{m}\sum_{i=1}^{m}\mathcal{I}(f(x_i)=y_i) \
-Acc. Rate &amp;= 1-Err. Rate \end{align} $$
+$$ Err. Rate = \frac{1}{m}\sum_{i=1}^{m}\mathcal{I}(f(x_i)=y_i) $$
+$$ Acc. Rate = 1-Err. Rate $$
 2. 查准率与查全率  True Positive （真正,TP）被模型预测为正的正样本； True Negative（真负 , TN） 被模型预测为负的负样本； False Positive （假正, FP）被模型预测为正的负样本； False Negative（假负 , FN）被模型预测为负的正样本；  查准率 P=TP／TP&#43;FP, 关注预测为正的样本里多少是真的正例。 查全率 R=TP／TP&#43;FN, 关注是不是所有正样本都被正确分类。 当查准率等于查全率时候得到BEP(Break-Even Point):　BEP=P=R"><meta property="og:image" content="https://wsstriving.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://wsstriving.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
@@ -294,7 +294,7 @@ Acc. Rate &amp;= 1-Err. Rate \end{align} $$
       "url": "https://wsstriving.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "不论是机器学习的分类问题，或者具体到说话人识别中，都需要对模型的性能指标进行评判，这就牵涉到性能度量指标的问题，常见的有几种，长得比较相似，也容易弄混，在这里加以阐述区分\n 1. 错误率与精度 错误率Err. Rate 是分类错误的样本数占样本总数的比例，精度Acc. Rate 是分类正确的样本数占样本总数的比例\n$$ \\begin{align} Err. Rate \u0026amp;= \\frac{1}{m}\\sum_{i=1}^{m}\\mathcal{I}(f(x_i)=y_i) \\\nAcc. Rate \u0026amp;= 1-Err. Rate \\end{align} $$\n2. 查准率与查全率  True Positive （真正,TP）被模型预测为正的正样本； True Negative（真负 , TN） 被模型预测为负的负样本； False Positive （假正, FP）被模型预测为正的负样本； False Negative（假负 , FN）被模型预测为负的正样本；  查准率 P=TP／TP+FP, 关注预测为正的样本里多少是真的正例。 查全率 R=TP／TP+FN, 关注是不是所有正样本都被正确分类。 当查准率等于查全率时候得到BEP(Break-Even Point):　BEP=P=R"
+  "description": "不论是机器学习的分类问题，或者具体到说话人识别中，都需要对模型的性能指标进行评判，这就牵涉到性能度量指标的问题，常见的有几种，长得比较相似，也容易弄混，在这里加以阐述区分\n 1. 错误率与精度 错误率Err. Rate 是分类错误的样本数占样本总数的比例，精度Acc. Rate 是分类正确的样本数占样本总数的比例\n$$ Err. Rate = \\frac{1}{m}\\sum_{i=1}^{m}\\mathcal{I}(f(x_i)=y_i) $$\n$$ Acc. Rate = 1-Err. Rate $$\n2. 查准率与查全率  True Positive （真正,TP）被模型预测为正的正样本； True Negative（真负 , TN） 被模型预测为负的负样本； False Positive （假正, FP）被模型预测为正的负样本； False Negative（假负 , FN）被模型预测为负的正样本；  查准率 P=TP／TP+FP, 关注预测为正的样本里多少是真的正例。 查全率 R=TP／TP+FN, 关注是不是所有正样本都被正确分类。 当查准率等于查全率时候得到BEP(Break-Even Point):　BEP=P=R"
 }
 </script>
 
@@ -639,10 +639,10 @@ Acc. Rate &amp;= 1-Err. Rate \end{align} $$
 <h2 id="1-错误率与精度">1. 错误率与精度</h2>
 <p>错误率Err. Rate 是分类错误的样本数占样本总数的比例，精度Acc. Rate 是分类正确的样本数占样本总数的比例</p>
 <p>$$
-\begin{align}
-Err. Rate &amp;= \frac{1}{m}\sum_{i=1}^{m}\mathcal{I}(f(x_i)=y_i) \<br>
-Acc. Rate &amp;= 1-Err. Rate
-\end{align}
+Err. Rate = \frac{1}{m}\sum_{i=1}^{m}\mathcal{I}(f(x_i)=y_i)
+$$</p>
+<p>$$
+Acc. Rate = 1-Err. Rate
 $$</p>
 <h2 id="2-查准率与查全率">2. 查准率与查全率</h2>
 <ul>
@@ -674,9 +674,9 @@ $$</p>
 <p>在说话人识别常用的评测标准中，FPR又称为FAR(False Accept Rate错误接受率),FNR又称为FRR(False Reject Rate错误拒绝率<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>)，</p>
 <p>最重要的一项评价指标EER(Equal Error Rate) 定义为EER=FAR=FRR</p>
 <p>在FAR 和FRR的基础上，定义了最小检测代价(minDCF)
-$$DCF = C_{FRR} \times FRR \times P_{target} + C_{FAR} \times FAR \times (1 − P_{target})$$
+$DCF = C_{FRR} \times FRR \times P_{target} + C_{FAR} \times FAR \times (1 − P_{target})$
 minDCF 为DCF的最小值。</p>
-<p>$$P_{target}$$是先验概率</p>
+<p>$P_{target}$是先验概率</p>
 <section class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
