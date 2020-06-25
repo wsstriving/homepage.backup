@@ -45,6 +45,20 @@
   </url>
   
   <url>
+    <loc>https://wsstriving.github.io/zh/post/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wsstriving.github.io/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wsstriving.github.io/zh/post/"
+                />
+  </url>
+  
+  <url>
     <loc>https://wsstriving.github.io/zh/publication_types/</loc>
     <xhtml:link
                 rel="alternate"
@@ -55,6 +69,20 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://wsstriving.github.io/zh/publication_types/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/zh/author/shuai-wang/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wsstriving.github.io/author/shuai-wang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wsstriving.github.io/zh/author/shuai-wang/"
                 />
   </url>
   
