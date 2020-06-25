@@ -8,21 +8,6 @@
   </url>
   
   <url>
-    <loc>https://wsstriving.github.io/</loc>
-    <lastmod>2020-06-25T21:46:02+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://wsstriving.github.io/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wsstriving.github.io/"
-                />
-  </url>
-  
-  <url>
     <loc>https://wsstriving.github.io/author/anna-silnova/</loc>
     <lastmod>2020-06-25T21:46:02+08:00</lastmod>
   </url>
@@ -140,6 +125,21 @@
   <url>
     <loc>https://wsstriving.github.io/author/shuai-wang/</loc>
     <lastmod>2020-06-25T21:46:02+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/</loc>
+    <lastmod>2020-06-25T21:46:02+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wsstriving.github.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wsstriving.github.io/"
+                />
   </url>
   
   <url>
