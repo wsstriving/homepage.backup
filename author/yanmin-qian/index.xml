@@ -28,5 +28,37 @@
       <description></description>
     </item>
     
+    <item>
+      <title>The SJTU Robust Anti-Spoofing System for the ASVspoof 2019 Challenge</title>
+      <link>https://wsstriving.github.io/publication/2019-is-asvspoof/</link>
+      <pubDate>Tue, 25 Jun 2019 22:40:14 +0800</pubDate>
+      <guid>https://wsstriving.github.io/publication/2019-is-asvspoof/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross-Domain Replay Spoofing Attack Detection Using Domain Adversarial Training</title>
+      <link>https://wsstriving.github.io/publication/2019-is-spoof/</link>
+      <pubDate>Tue, 25 Jun 2019 22:39:54 +0800</pubDate>
+      <guid>https://wsstriving.github.io/publication/2019-is-spoof/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Augmentation Using Variational Autoencoder for Embedding Based Speaker Verification</title>
+      <link>https://wsstriving.github.io/publication/2019-is-vae/</link>
+      <pubDate>Tue, 25 Jun 2019 22:39:26 +0800</pubDate>
+      <guid>https://wsstriving.github.io/publication/2019-is-vae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Usage of Phonetic Information for Text-independent Speaker Embedding Extraction</title>
+      <link>https://wsstriving.github.io/publication/2019-is-phoneme/</link>
+      <pubDate>Tue, 25 Jun 2019 22:38:51 +0800</pubDate>
+      <guid>https://wsstriving.github.io/publication/2019-is-phoneme/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
