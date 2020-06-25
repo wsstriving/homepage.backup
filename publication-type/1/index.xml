@@ -5,20 +5,12 @@
     <link>https://wsstriving.github.io/publication-type/1/</link>
       <atom:link href="https://wsstriving.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 25 Jun 2020 23:32:07 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 25 Jun 2020 21:46:02 +0800</lastBuildDate>
     <image>
       <url>https://wsstriving.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
       <link>https://wsstriving.github.io/publication-type/1/</link>
     </image>
-    
-    <item>
-      <title>Deep discriminant analysis for i-vector based robust speaker recognition</title>
-      <link>https://wsstriving.github.io/publication/2018-iscslp-dda/</link>
-      <pubDate>Thu, 25 Jun 2020 23:32:07 +0800</pubDate>
-      <guid>https://wsstriving.github.io/publication/2018-iscslp-dda/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>But System for the Second Dihard Speech Diarization Challenge</title>
@@ -121,6 +113,14 @@
       <link>https://wsstriving.github.io/publication/2018-iscide/</link>
       <pubDate>Mon, 25 Jun 2018 23:32:16 +0800</pubDate>
       <guid>https://wsstriving.github.io/publication/2018-iscide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep discriminant analysis for i-vector based robust speaker recognition</title>
+      <link>https://wsstriving.github.io/publication/2018-iscslp-dda/</link>
+      <pubDate>Mon, 25 Jun 2018 23:32:07 +0800</pubDate>
+      <guid>https://wsstriving.github.io/publication/2018-iscslp-dda/</guid>
       <description></description>
     </item>
     
