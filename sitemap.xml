@@ -148,21 +148,6 @@
   </url>
   
   <url>
-    <loc>https://wsstriving.github.io/tag/robustness/</loc>
-    <lastmod>2020-06-25T21:45:45+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wsstriving.github.io/category/sid/</loc>
-    <lastmod>2020-06-25T21:45:45+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wsstriving.github.io/tags/</loc>
-    <lastmod>2020-06-25T21:45:45+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://wsstriving.github.io/author/zhengyang-chen/</loc>
     <lastmod>2020-06-25T21:45:45+08:00</lastmod>
   </url>
@@ -174,6 +159,11 @@
   
   <url>
     <loc>https://wsstriving.github.io/author/jan-cernocky/</loc>
+    <lastmod>2020-06-25T21:45:36+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/category/sid/</loc>
     <lastmod>2020-06-25T21:45:36+08:00</lastmod>
   </url>
   
@@ -197,6 +187,10 @@
   
   <url>
     <loc>https://wsstriving.github.io/author/shuai-wang/</loc>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/tags/</loc>
   </url>
   
 </urlset>

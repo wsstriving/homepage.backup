@@ -20,5 +20,21 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Channel Invariant Speaker Embedding Learning with Joint Multi-Task and Adversarial Training</title>
+      <link>https://wsstriving.github.io/publication/2020-icassp-channel/</link>
+      <pubDate>Thu, 25 Jun 2020 21:45:45 +0800</pubDate>
+      <guid>https://wsstriving.github.io/publication/2020-icassp-channel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What Does the Speaker Embedding Encode?</title>
+      <link>https://wsstriving.github.io/publication/2017-interspeech/</link>
+      <pubDate>Sun, 25 Jun 2017 18:01:22 +0800</pubDate>
+      <guid>https://wsstriving.github.io/publication/2017-interspeech/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
