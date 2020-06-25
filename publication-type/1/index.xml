@@ -69,6 +69,14 @@
     </item>
     
     <item>
+      <title>End-to-End Speaker-Dependent Voice Activity Detection</title>
+      <link>https://wsstriving.github.io/publication/2019-ncmmsc-vad/</link>
+      <pubDate>Tue, 25 Jun 2019 23:20:28 +0800</pubDate>
+      <guid>https://wsstriving.github.io/publication/2019-ncmmsc-vad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The SJTU Robust Anti-Spoofing System for the ASVspoof 2019 Challenge</title>
       <link>https://wsstriving.github.io/publication/2019-is-asvspoof/</link>
       <pubDate>Tue, 25 Jun 2019 22:40:14 +0800</pubDate>
@@ -105,6 +113,14 @@
       <link>https://wsstriving.github.io/publication/2019-is-phoneme/</link>
       <pubDate>Tue, 25 Jun 2019 22:38:51 +0800</pubDate>
       <guid>https://wsstriving.github.io/publication/2019-is-phoneme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angular Softmax for Short-Duration Text-independent Speaker Verification.</title>
+      <link>https://wsstriving.github.io/publication/2018-interspeech/</link>
+      <pubDate>Mon, 25 Jun 2018 23:32:23 +0800</pubDate>
+      <guid>https://wsstriving.github.io/publication/2018-interspeech/</guid>
       <description></description>
     </item>
     
