@@ -31,20 +31,6 @@
   </url>
   
   <url>
-    <loc>https://wsstriving.github.io/zh/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wsstriving.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://wsstriving.github.io/zh/"
-                />
-  </url>
-  
-  <url>
     <loc>https://wsstriving.github.io/zh/post/</loc>
     <xhtml:link
                 rel="alternate"
@@ -97,6 +83,20 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://wsstriving.github.io/zh/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/zh/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wsstriving.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wsstriving.github.io/zh/"
                 />
   </url>
   
