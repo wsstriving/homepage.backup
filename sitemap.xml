@@ -3,12 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://wsstriving.github.io/publication-type/1/</loc>
-    <lastmod>2017-06-25T18:01:22+08:00</lastmod>
+    <loc>https://wsstriving.github.io/</loc>
+    <lastmod>2020-06-25T18:55:55+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wsstriving.github.io/</loc>
+    <loc>https://wsstriving.github.io/category/blog/</loc>
+    <lastmod>2020-06-25T18:55:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/categories/</loc>
+    <lastmod>2020-06-25T18:55:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/tag/chinese/</loc>
+    <lastmod>2020-06-25T18:55:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/post/</loc>
+    <lastmod>2020-06-25T18:55:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/tags/</loc>
+    <lastmod>2020-06-25T18:55:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/post/eval_metrics/</loc>
+    <lastmod>2020-06-25T18:55:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/publication-type/1/</loc>
     <lastmod>2017-06-25T18:01:22+08:00</lastmod>
   </url>
   
@@ -43,23 +73,11 @@
   </url>
   
   <url>
-    <loc>https://wsstriving.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wsstriving.github.io/post/</loc>
-  </url>
-  
-  <url>
     <loc>https://wsstriving.github.io/talk/</loc>
   </url>
   
   <url>
     <loc>https://wsstriving.github.io/author/shuai-wang/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wsstriving.github.io/tags/</loc>
   </url>
   
 </urlset>

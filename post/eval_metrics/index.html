@@ -27,10 +27,14 @@
   
     
   
-  <meta name="description" content="PhD student">
+  <meta name="description" content="不论是机器学习的分类问题，或者具体到说话人识别中，都需要对模型的性能指标进行评判，这就牵涉到性能度量指标的问题，常见的有几种，长得比较相似，也容易弄混，在这里加以阐述区分
+ 1. 错误率与精度 错误率Err. Rate 是分类错误的样本数占样本总数的比例，精度Acc. Rate 是分类正确的样本数占样本总数的比例
+$$ \begin{align} Err. Rate &amp;= \frac{1}{m}\sum_{i=1}^{m}\mathcal{I}(f(x_i)=y_i) \
+Acc. Rate &amp;= 1-Err. Rate \end{align} $$
+2. 查准率与查全率  True Positive （真正,TP）被模型预测为正的正样本； True Negative（真负 , TN） 被模型预测为负的负样本； False Positive （假正, FP）被模型预测为正的负样本； False Negative（假负 , FN）被模型预测为负的正样本；  查准率 P=TP／TP&#43;FP, 关注预测为正的样本里多少是真的正例。 查全率 R=TP／TP&#43;FN, 关注是不是所有正样本都被正确分类。 当查准率等于查全率时候得到BEP(Break-Even Point):　BEP=P=R">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://wsstriving.github.io/post/">
+  <link rel="alternate" hreflang="en-us" href="https://wsstriving.github.io/post/eval_metrics/">
 
   
 
@@ -213,14 +217,12 @@
   
 
   
-  <link rel="alternate" href="/post/index.xml" type="application/rss+xml" title="Academic">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://wsstriving.github.io/post/">
+  <link rel="canonical" href="https://wsstriving.github.io/post/eval_metrics/">
 
   
   
@@ -236,18 +238,67 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Academic">
-  <meta property="og:url" content="https://wsstriving.github.io/post/">
-  <meta property="og:title" content="Posts | Academic">
-  <meta property="og:description" content="PhD student"><meta property="og:image" content="https://wsstriving.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://wsstriving.github.io/post/eval_metrics/">
+  <meta property="og:title" content="常用性能度量指标 | Academic">
+  <meta property="og:description" content="不论是机器学习的分类问题，或者具体到说话人识别中，都需要对模型的性能指标进行评判，这就牵涉到性能度量指标的问题，常见的有几种，长得比较相似，也容易弄混，在这里加以阐述区分
+ 1. 错误率与精度 错误率Err. Rate 是分类错误的样本数占样本总数的比例，精度Acc. Rate 是分类正确的样本数占样本总数的比例
+$$ \begin{align} Err. Rate &amp;= \frac{1}{m}\sum_{i=1}^{m}\mathcal{I}(f(x_i)=y_i) \
+Acc. Rate &amp;= 1-Err. Rate \end{align} $$
+2. 查准率与查全率  True Positive （真正,TP）被模型预测为正的正样本； True Negative（真负 , TN） 被模型预测为负的负样本； False Positive （假正, FP）被模型预测为正的负样本； False Negative（假负 , FN）被模型预测为负的正样本；  查准率 P=TP／TP&#43;FP, 关注预测为正的样本里多少是真的正例。 查全率 R=TP／TP&#43;FN, 关注是不是所有正样本都被正确分类。 当查准率等于查全率时候得到BEP(Break-Even Point):　BEP=P=R"><meta property="og:image" content="https://wsstriving.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://wsstriving.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-06-25T18:55:55&#43;08:00">
+    
+      <meta property="article:published_time" content="2020-06-25T18:55:55&#43;08:00">
+    
+    <meta property="article:modified_time" content="2020-06-25T18:55:55&#43;08:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://wsstriving.github.io/post/eval_metrics/"
+  },
+  "headline": "常用性能度量指标",
+  
+  "datePublished": "2020-06-25T18:55:55+08:00",
+  "dateModified": "2020-06-25T18:55:55+08:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Shuai Wang"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Academic",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://wsstriving.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "不论是机器学习的分类问题，或者具体到说话人识别中，都需要对模型的性能指标进行评判，这就牵涉到性能度量指标的问题，常见的有几种，长得比较相似，也容易弄混，在这里加以阐述区分\n 1. 错误率与精度 错误率Err. Rate 是分类错误的样本数占样本总数的比例，精度Acc. Rate 是分类正确的样本数占样本总数的比例\n$$ \\begin{align} Err. Rate \u0026amp;= \\frac{1}{m}\\sum_{i=1}^{m}\\mathcal{I}(f(x_i)=y_i) \\\nAcc. Rate \u0026amp;= 1-Err. Rate \\end{align} $$\n2. 查准率与查全率  True Positive （真正,TP）被模型预测为正的正样本； True Negative（真负 , TN） 被模型预测为负的负样本； False Positive （假正, FP）被模型预测为正的负样本； False Negative（假负 , FN）被模型预测为负的正样本；  查准率 P=TP／TP+FP, 关注预测为正的样本里多少是真的正例。 查全率 R=TP／TP+FN, 关注是不是所有正样本都被正确分类。 当查准率等于查全率时候得到BEP(Break-Even Point):　BEP=P=R"
+}
+</script>
+
+  
 
   
 
@@ -255,10 +306,13 @@
   
 
 
+  
 
 
 
-  <title>Posts | Academic</title>
+
+
+  <title>常用性能度量指标 | Academic</title>
 
 </head>
 
@@ -490,82 +544,33 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <article class="article">
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+  
+
   
   
+  
+<div class="article-container pt-3">
+  <h1>常用性能度量指标</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>Posts</h1>
-
-  
-
-  
-</div>
-
-
-
-<div class="universal-wrapper">
-
-  
-
-  
-  
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/post/eval_metrics/" >常用性能度量指标</a>
-    </h3>
-
-    
-    <div class="article-style">
-      不论是机器学习的分类问题，或者具体到说话人识别中，都需要对模型的性能指标进行评判，这就牵涉到性能度量指标的问题，常见的有几种，长得比较相似，也容易弄混，在这里加以阐述区分
- 1. 错误率与精度 错误率Err. Rate 是分类错误的样本数占样本总数的比例，精度Acc. Rate 是分类正确的样本数占样本总数的比例
-$$ \begin{align} Err. Rate &amp;= \frac{1}{m}\sum_{i=1}^{m}\mathcal{I}(f(x_i)=y_i) \
-Acc. Rate &amp;= 1-Err. Rate \end{align} $$
-2. 查准率与查全率  True Positive （真正,TP）被模型预测为正的正样本； True Negative（真负 , TN） 被模型预测为负的负样本； False Positive （假正, FP）被模型预测为正的负样本； False Negative（假负 , FN）被模型预测为负的正样本；  查准率 P=TP／TP+FP, 关注预测为正的样本里多少是真的正例。 查全率 R=TP／TP+FN, 关注是不是所有正样本都被正确分类。 当查准率等于查全率时候得到BEP(Break-Even Point):　BEP=P=R
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
 
 
 <div class="article-metadata">
@@ -605,25 +610,281 @@ Acc. Rate &amp;= 1-Err. Rate \end{align} $$
 
 </div>
 
-      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <blockquote>
+<p>不论是机器学习的分类问题，或者具体到说话人识别中，都需要对模型的性能指标进行评判，这就牵涉到性能度量指标的问题，常见的有几种，长得比较相似，也容易弄混，在这里加以阐述区分</p>
+</blockquote>
+<h2 id="1-错误率与精度">1. 错误率与精度</h2>
+<p>错误率Err. Rate 是分类错误的样本数占样本总数的比例，精度Acc. Rate 是分类正确的样本数占样本总数的比例</p>
+<p>$$
+\begin{align}
+Err. Rate &amp;= \frac{1}{m}\sum_{i=1}^{m}\mathcal{I}(f(x_i)=y_i) \<br>
+Acc. Rate &amp;= 1-Err. Rate
+\end{align}
+$$</p>
+<h2 id="2-查准率与查全率">2. 查准率与查全率</h2>
+<ul>
+<li>True Positive （真正,TP）被模型预测为正的正样本；</li>
+<li>True Negative（真负 , TN） 被模型预测为负的负样本；</li>
+<li>False Positive （假正, FP）被模型预测为正的负样本；</li>
+<li>False Negative（假负 , FN）被模型预测为负的正样本；</li>
+</ul>
+<p>查准率 P=TP／TP+FP, 关注预测为正的样本里多少是真的正例。
+查全率 R=TP／TP+FN, 关注是不是所有正样本都被正确分类。
+当查准率等于查全率时候得到BEP(Break-Even Point):　BEP=P=R</p>
+<p>BEP 的度量太简单，因此又定义了F1 score：</p>
+<p>$$
+F1=\frac{2\times P \times R}{P+R}=\frac{2 \times TP}{#samples + TP-TN}
+$$</p>
+<p>F1 score 是查准率和查全率的调和平均数。</p>
+<h2 id="3-错误拒绝率和错误接受率">3. 错误拒绝率和错误接受率</h2>
+<p>首先给出如下定义</p>
+<ul>
+<li>True Positive Rate　TPR = TP /（TP + FN）
+　正样本预测正确数 / 正样本实际数</li>
+<li>True Negative Rate TNR = TN /（TN + FP）
+　负样本预测正确数 / 负样本实际数</li>
+<li>False Positive Rate FPR = FP /（TN + FP）
+负样本预测错误数 /负样本实际数</li>
+<li>False Negative Rate FNR = FN /（TP + FN）
+正样本预测错误数 / 正样本实际数</li>
+</ul>
+<p>在说话人识别常用的评测标准中，FPR又称为FAR(False Accept Rate错误接受率),FNR又称为FRR(False Reject Rate错误拒绝率<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>)，</p>
+<p>最重要的一项评价指标EER(Equal Error Rate) 定义为EER=FAR=FRR</p>
+<p>在FAR 和FRR的基础上，定义了最小检测代价(minDCF)
+$$DCF = C_{FRR} \times FRR \times P_{target} + C_{FAR} \times FAR \times (1 − P_{target})$$
+minDCF 为DCF的最小值。</p>
+<p>$$P_{target}$$是先验概率</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>有的文献里称FAR为虚警率，FRR为漏警率。 <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
     </div>
 
     
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/chinese/">Chinese</a>
+  
 </div>
 
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
     
-  
-
-  
-
-
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://wsstriving.github.io/post/eval_metrics/&amp;text=%e5%b8%b8%e7%94%a8%e6%80%a7%e8%83%bd%e5%ba%a6%e9%87%8f%e6%8c%87%e6%a0%87" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://wsstriving.github.io/post/eval_metrics/&amp;t=%e5%b8%b8%e7%94%a8%e6%80%a7%e8%83%bd%e5%ba%a6%e9%87%8f%e6%8c%87%e6%a0%87" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%e5%b8%b8%e7%94%a8%e6%80%a7%e8%83%bd%e5%ba%a6%e9%87%8f%e6%8c%87%e6%a0%87&amp;body=https://wsstriving.github.io/post/eval_metrics/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://wsstriving.github.io/post/eval_metrics/&amp;title=%e5%b8%b8%e7%94%a8%e6%80%a7%e8%83%bd%e5%ba%a6%e9%87%8f%e6%8c%87%e6%a0%87" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=%e5%b8%b8%e7%94%a8%e6%80%a7%e8%83%bd%e5%ba%a6%e9%87%8f%e6%8c%87%e6%a0%87%20https://wsstriving.github.io/post/eval_metrics/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://wsstriving.github.io/post/eval_metrics/&amp;title=%e5%b8%b8%e7%94%a8%e6%80%a7%e8%83%bd%e5%ba%a6%e9%87%8f%e6%8c%87%e6%a0%87" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+    
+    
+    
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/author/shuai-wang/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q90_lanczos_center.jpg" alt="Shuai Wang">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="https://wsstriving.github.io">Shuai Wang</a></h5>
+        <h6 class="card-subtitle">PhD student</h6>
+        <p class="card-text">My research interests include DL methods for robust speaker recognition</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/wsstriving@gmail.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=vW1ZaucAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
+</article>
 
       
 
