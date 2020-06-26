@@ -5,12 +5,20 @@
     <link>https://wsstriving.github.io/author/anna-silnova/</link>
       <atom:link href="https://wsstriving.github.io/author/anna-silnova/index.xml" rel="self" type="application/rss+xml" />
     <description>Anna Silnova</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 25 Jun 2020 21:46:02 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 26 Jun 2020 13:40:56 +0800</lastBuildDate>
     <image>
       <url>https://wsstriving.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Anna Silnova</title>
       <link>https://wsstriving.github.io/author/anna-silnova/</link>
     </image>
+    
+    <item>
+      <title>Analysis of ABC Submission to NIST SRE 2019 CMN and VAST Challenge</title>
+      <link>https://wsstriving.github.io/publication/2020-nistsre/</link>
+      <pubDate>Fri, 26 Jun 2020 13:40:56 +0800</pubDate>
+      <guid>https://wsstriving.github.io/publication/2020-nistsre/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>But System for the Second Dihard Speech Diarization Challenge</title>
