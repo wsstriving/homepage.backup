@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>0 | Academic</title>
+    <title>0 | Work hard</title>
     <link>https://wsstriving.github.io/publication-type/0/</link>
       <atom:link href="https://wsstriving.github.io/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 25 Jun 2019 23:20:28 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 26 Jun 2019 13:31:19 +0800</lastBuildDate>
     <image>
       <url>https://wsstriving.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>0</title>
@@ -13,18 +13,10 @@
     </image>
     
     <item>
-      <title>End-to-End Speaker-Dependent Voice Activity Detection</title>
-      <link>https://wsstriving.github.io/publication/2019-ncmmsc-vad/</link>
-      <pubDate>Tue, 25 Jun 2019 23:20:28 +0800</pubDate>
-      <guid>https://wsstriving.github.io/publication/2019-ncmmsc-vad/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Angular Softmax for Short-Duration Text-independent Speaker Verification.</title>
-      <link>https://wsstriving.github.io/publication/2018-interspeech/</link>
-      <pubDate>Mon, 25 Jun 2018 23:32:23 +0800</pubDate>
-      <guid>https://wsstriving.github.io/publication/2018-interspeech/</guid>
+      <title>BUT system description to voxceleb speaker recognition challenge 2019</title>
+      <link>https://wsstriving.github.io/publication/2019-voxceleb/</link>
+      <pubDate>Wed, 26 Jun 2019 13:31:19 +0800</pubDate>
+      <guid>https://wsstriving.github.io/publication/2019-voxceleb/</guid>
       <description></description>
     </item>
     
