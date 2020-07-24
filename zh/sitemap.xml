@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wsstriving.github.io/zh/post/</loc>
+    <lastmod>2020-07-22T13:40:46+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wsstriving.github.io/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wsstriving.github.io/zh/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/zh/post/twenty-seven/</loc>
+    <lastmod>2020-07-22T13:40:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/zh/</loc>
+    <lastmod>2020-07-22T13:40:46+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wsstriving.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wsstriving.github.io/zh/"
+                />
+  </url>
+  
+  <url>
     <loc>https://wsstriving.github.io/zh/authors/</loc>
     <xhtml:link
                 rel="alternate"
@@ -27,20 +62,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://wsstriving.github.io/zh/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://wsstriving.github.io/zh/post/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wsstriving.github.io/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://wsstriving.github.io/zh/post/"
                 />
   </url>
   
@@ -83,20 +104,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://wsstriving.github.io/zh/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://wsstriving.github.io/zh/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wsstriving.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://wsstriving.github.io/zh/"
                 />
   </url>
   
