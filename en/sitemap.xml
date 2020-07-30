@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://wsstriving.github.io/publication-type/3/</loc>
-    <lastmod>2020-07-28T20:42:06+08:00</lastmod>
+    <loc>https://wsstriving.github.io/publication-type/2/</loc>
+    <lastmod>2020-07-30T22:46:42+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://wsstriving.github.io/authors/</loc>
-    <lastmod>2020-07-28T20:42:06+08:00</lastmod>
+    <lastmod>2020-07-30T22:46:42+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -20,6 +20,76 @@
                 hreflang="en"
                 href="https://wsstriving.github.io/authors/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/publication/2020-taslp/</loc>
+    <lastmod>2020-07-30T22:46:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/author/kai-yu/</loc>
+    <lastmod>2020-07-30T22:46:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/publication_types/</loc>
+    <lastmod>2020-07-30T22:46:42+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wsstriving.github.io/zh/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wsstriving.github.io/publication_types/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/publication/</loc>
+    <lastmod>2020-07-30T22:46:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/author/shuai-wang/</loc>
+    <lastmod>2020-07-30T22:46:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/</loc>
+    <lastmod>2020-07-30T22:46:42+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://wsstriving.github.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wsstriving.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/author/yanmin-qian/</loc>
+    <lastmod>2020-07-30T22:46:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/author/yexin-yang/</loc>
+    <lastmod>2020-07-30T22:46:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/author/zhanghao-wu/</loc>
+    <lastmod>2020-07-30T22:46:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/publication-type/3/</loc>
+    <lastmod>2020-07-28T20:42:06+08:00</lastmod>
   </url>
   
   <url>
@@ -35,46 +105,6 @@
   <url>
     <loc>https://wsstriving.github.io/author/hongji-wang/</loc>
     <lastmod>2020-07-28T20:42:06+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wsstriving.github.io/publication_types/</loc>
-    <lastmod>2020-07-28T20:42:06+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://wsstriving.github.io/zh/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wsstriving.github.io/publication_types/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://wsstriving.github.io/publication/</loc>
-    <lastmod>2020-07-28T20:42:06+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wsstriving.github.io/author/shuai-wang/</loc>
-    <lastmod>2020-07-28T20:42:06+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wsstriving.github.io/</loc>
-    <lastmod>2020-07-28T20:42:06+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://wsstriving.github.io/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wsstriving.github.io/"
-                />
   </url>
   
   <url>
@@ -273,11 +303,6 @@
   </url>
   
   <url>
-    <loc>https://wsstriving.github.io/author/kai-yu/</loc>
-    <lastmod>2020-06-25T21:45:52+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://wsstriving.github.io/category/sel/</loc>
     <lastmod>2020-06-25T21:45:52+08:00</lastmod>
   </url>
@@ -289,16 +314,6 @@
   
   <url>
     <loc>https://wsstriving.github.io/author/xun-gong/</loc>
-    <lastmod>2020-06-25T21:45:52+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wsstriving.github.io/author/yanmin-qian/</loc>
-    <lastmod>2020-06-25T21:45:52+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wsstriving.github.io/author/yexin-yang/</loc>
     <lastmod>2020-06-25T21:45:52+08:00</lastmod>
   </url>
   
@@ -325,11 +340,6 @@
   <url>
     <loc>https://wsstriving.github.io/publication/2019-voxceleb/</loc>
     <lastmod>2019-06-26T13:31:19+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wsstriving.github.io/publication-type/2/</loc>
-    <lastmod>2019-06-25T23:56:06+08:00</lastmod>
   </url>
   
   <url>
@@ -404,11 +414,6 @@
   
   <url>
     <loc>https://wsstriving.github.io/publication/2019-is-vae/</loc>
-    <lastmod>2019-06-25T22:39:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wsstriving.github.io/author/zhanghao-wu/</loc>
     <lastmod>2019-06-25T22:39:26+08:00</lastmod>
   </url>
   
