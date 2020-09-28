@@ -1,18 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https:///shuaiwang.site/en/sitemap.xml</loc>
-		
-	   	<lastmod>2020-07-30T22:46:42+08:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https:///shuaiwang.site/zh/sitemap.xml</loc>
-		
-	   	<lastmod>2020-07-22T13:40:46+08:00</lastmod>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://wsstriving.github.io/</loc>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/authors/</loc>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/author/nelson-bighetti/</loc>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/post/</loc>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/publication/</loc>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>https://wsstriving.github.io/tags/</loc>
+  </url>
+  
+</urlset>
